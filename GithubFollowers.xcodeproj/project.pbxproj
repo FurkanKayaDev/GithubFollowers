@@ -26,6 +26,7 @@
 		46DFE4222B5873AB00B892B4 /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DFE4212B5873AB00B892B4 /* ErrorMessage.swift */; };
 		46DFE4252B5877DF00B892B4 /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DFE4242B5877DF00B892B4 /* FollowerCell.swift */; };
 		46DFE4272B58786800B892B4 /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DFE4262B58786800B892B4 /* GFAvatarImageView.swift */; };
+		46DFE4292B590FE200B892B4 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DFE4282B590FE200B892B4 /* UIHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		46DFE4212B5873AB00B892B4 /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
 		46DFE4242B5877DF00B892B4 /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
 		46DFE4262B58786800B892B4 /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
+		46DFE4282B590FE200B892B4 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				46DFE4212B5873AB00B892B4 /* ErrorMessage.swift */,
+				46DFE4282B590FE200B892B4 /* UIHelper.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 				46DFE4052B57D04D00B892B4 /* FavoritesListVC.swift in Sources */,
 				46DFE4072B57D48F00B892B4 /* GFButton.swift in Sources */,
 				46DFE4132B5828E300B892B4 /* UIViewController+Ext.swift in Sources */,
+				46DFE4292B590FE200B892B4 /* UIHelper.swift in Sources */,
 				46DFE4272B58786800B892B4 /* GFAvatarImageView.swift in Sources */,
 				46DFE4032B57D01900B892B4 /* SearchVC.swift in Sources */,
 				46DFE4112B581AE600B892B4 /* GFAlertVC.swift in Sources */,
