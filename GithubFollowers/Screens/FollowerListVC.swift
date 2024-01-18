@@ -53,10 +53,10 @@ class FollowerListVC: UIViewController {
     func configureSearchController() {
         let searchController = UISearchController()
         searchController.searchResultsUpdater = self
-        searchController.searchBar.delegate = self // Search bar'a tıklandığında delegate'i tetikleniyor.
+        searchController.searchBar.delegate = self
         searchController.searchBar.placeholder = "Search for a username"
         searchController.hidesNavigationBarDuringPresentation = false
-        searchController.obscuresBackgroundDuringPresentation = false // Arama yaparken arka planı kapatıyoruz.
+        searchController.obscuresBackgroundDuringPresentation = false
         navigationItem.searchController = searchController
         
     }
