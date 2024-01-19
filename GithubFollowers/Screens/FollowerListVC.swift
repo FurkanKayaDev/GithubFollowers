@@ -74,7 +74,7 @@ class FollowerListVC: UIViewController {
         NetworkManager.shared.getFollowers(username: username, page: page) {[weak self] result in
             guard let self = self else {return}
             dismissLoadingView()
-
+            
             switch result {
             case.success(let followers):
                 if followers.count < 100 {self.hasMoreFollowers = false}
@@ -155,6 +155,13 @@ extension FollowerListVC: UICollectionViewDelegate {
         let navController = UINavigationController(rootViewController: destVC)
         present(navController, animated: true)
         
+        if let searchController = navigationItem.searchController, searchController.isActive {
+            searchController.dismiss(animated: true, completion: {
+                searchController.searchBar.text = nil
+                self.isSearching = false
+                self.updateData(on: self.followers)
+            })
+        }
     }
 }
 
